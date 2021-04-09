@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.puzzle {
+    border-style: solid;
+    border-color:darkcyan;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.cell,.emptyCell {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.cell:hover, .emptyCell:hover{
+    cursor:pointer;
+    background-color: cadetblue;
+}
